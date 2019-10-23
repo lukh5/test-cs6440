@@ -2,6 +2,11 @@ kind: pipeline
 name: default
 
 steps:
+# Add 2 steps to this section
+# build the application artifact you want to deploy
+# build and deploy a docker image to the HDAP Docker Registry
+  # Uses Dockerfile in project to build image
+
 # Define the steps to test, package, and deploy your application
 # For example steps to build and deploy a java application may look like this
 # Run Java Unit Tests and build WAR file
@@ -30,6 +35,8 @@ steps:
 #    dockerfile: directory_of_myapp_code/Dockerfile
 #    tags:
 #      - latest
+
+# Keep get_chart_builder, copy_namespace, and deploy_to_k8s below
 
 # Pull down the templates for deployment to HDAP K8S
 - name: get_chart_builder
@@ -68,6 +75,6 @@ volumes:
   temp: {}
 trigger:
   branch:
-  - cs6440
+  - master # Update to tell drone which branch to monitor
   event:
   - push
