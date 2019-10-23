@@ -13,3 +13,11 @@ Alex Lipford | alipford3 | QA | Responsible for our code quality and ensuring te
 James Calhoun | jcalhoun31 | Dev | Responsible for implementing the design and ensuring all use-cases are implemented
 Katherine Lu | klu43 | Dev | Responsible for implementing the design and ensuring all use-cases are implemented
 Robert Smayda | rsmayda3 | PM | Responsible for the successful initiation, planning, design, execution, monitoring, controlling and closure of the project. In charge of defining the requirements of the system and ensuring the team is unblocked
+
+### Command used to build docker image
+
+`docker build -t rapilyticsserviceimage .`
+
+### Command used to run the service
+
+`docker run rapilyticsserviceimage`
