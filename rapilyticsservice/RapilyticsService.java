@@ -10,7 +10,7 @@ public class RapilyticsService {
         System.out.println("Hello, World!");
         // Source material for setting up Java HTTP server
         // https://www.codeproject.com/tips/1040097/create-a-simple-web-server-in-java-http-server
-        int port = 80;
+        int port = 8989;
         try {
             System.out.println("Starting server at Port " + port);
             HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);

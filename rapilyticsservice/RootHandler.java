@@ -7,7 +7,7 @@ public class RootHandler implements HttpHandler {
 
     // @Override
     public void handle(HttpExchange he) throws IOException {
-        int port = 80;
+        int port = 8989;
         String response = "<h1>Hello World</h1>" + "<h1>Port: " + port + "</h1>";
         he.sendResponseHeaders(200, response.length());
         OutputStream os = he.getResponseBody();
