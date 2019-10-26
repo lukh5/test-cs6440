@@ -30,7 +30,7 @@ steps:
 - name: deploy_application_image
   image: plugins/docker
   settings:
-    repo: build.hdap.gatech.edu/Rapilytics
+    repo: build.hdap.gatech.edu/asclepius-rapilytics
     context: .
     dockerfile: Dockerfile
     tags:
