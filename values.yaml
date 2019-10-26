@@ -1,6 +1,7 @@
 # The namespace to deploy your application
 global:
-  namespace: newtest
+  #TA-Alex updated this for you
+  namespace: asclepius-rapilytics
 
 # Default values for webapp.
 # This is a YAML-formatted file.
@@ -10,16 +11,20 @@ global:
 
 # frontend:
 #   #name is a DNS-1035 label and must consist of lower case alphanumeric characters or '-', start with an alphabetic character, and end with an alphanumeric character (e.g. 'my-name',  or 'abc-123')
-#   name: testfrontend
-#   port: 80
-#   replicaCount: 1
-#   proxy:
-#     incomingPath: /newtestfrontend/
-#     containerPath: "" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
-#   image:
-#     repository: nginx
-#     tag: latest
-#     pullPolicy: Always
+  #TA-Alex updated this for you
+  name: a-rap
+  #TA-Alex says you have to make sure this is what you are using
+  port: 80
+  replicaCount: 1
+  proxy:
+    #TA-Alex updated this for you
+    incomingPath: /a-rap/
+    containerPath: "" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
+  image:
+    #TA-Alex says please verify this is what you want
+    repository: nginx
+    tag: latest
+    pullPolicy: Always
 
 
   #Volumes used by the application are placed here
