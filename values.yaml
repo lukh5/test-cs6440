@@ -43,7 +43,7 @@ backend:
   port: 80
   replicaCount: 1
   proxy:
-    incomingPath: /newtestbackend/
+    incomingPath: /Rapilytics/
     containerPath: "" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
   image:
     repository: nginx

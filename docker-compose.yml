@@ -1,6 +1,7 @@
 version: '3.0'
 services:
   rapilytics_service:
+      image: rapilytics_service_image
       build:
         #specifiy the project build context
         context: .
