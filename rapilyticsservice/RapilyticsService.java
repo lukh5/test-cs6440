@@ -15,7 +15,7 @@ public class RapilyticsService {
             System.out.println("Starting server at Port " + port);
             HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
             System.out.println("Hello World at Port " + port);
-            server.createContext("/a-rap-backend", new RootHandler());
+            server.createContext("/a-rap-backend/index.html", new RootHandler());
             server.setExecutor(null);
             server.start();
         } catch (IOException e) {
