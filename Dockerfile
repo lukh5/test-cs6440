@@ -10,5 +10,6 @@ COPY ./asclepius_frontend /asclepius_frontend
 # WORKDIR /asclepius_frontend
 # RUN npm run build
 COPY /asclepius_frontend/build /usr/share/nginx/html
+COPY nginx/nginx.conf /etc/nginx/conf.d
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
