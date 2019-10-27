@@ -19,7 +19,7 @@ global:
   proxy:
     #TA-Alex updated this for you
     incomingPath: /a-rap/
-    containerPath: "/" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
+    containerPath: "" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
   image:
     #TA-Alex says please verify this is what you want
     repository: nginx
