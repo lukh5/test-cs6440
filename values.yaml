@@ -22,7 +22,8 @@ frontend:
     containerPath: "/" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
   image:
     #TA-Alex says please verify this is what you want
-    repository: nginx
+    # repository: nginx
+    repository: build.hdap.gatech.edu/asclepius-rapilytics
     tag: latest
     pullPolicy: Always
 
