@@ -5,4 +5,5 @@
 # CMD ["java", "RapilyticsService"]
 
 FROM nginx:latest
-COPY ./rapilyticsservice /usr/share/nginx/html
+# COPY ./rapilyticsservice /usr/share/nginx/html
+COPY ./asclepius_frontend/build /usr/share/nginx/html
