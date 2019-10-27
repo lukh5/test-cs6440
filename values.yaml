@@ -9,7 +9,7 @@ global:
 # REMOVE THIS SECTION IF YOUR APPLICATION DOES NOT HAVE A FRONT END
 
 
-# frontend:
+frontend:
 #   #name is a DNS-1035 label and must consist of lower case alphanumeric characters or '-', start with an alphabetic character, and end with an alphanumeric character (e.g. 'my-name',  or 'abc-123')
   #TA-Alex updated this for you
   name: a-rap
@@ -19,7 +19,7 @@ global:
   proxy:
     #TA-Alex updated this for you
     incomingPath: /a-rap/
-    containerPath: "" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
+    containerPath: "/" # The empty string "" means use same as incomingPath, otherwise the value in the string will replace the value of incomingPath when traffic is sent to the application in the deployed container
   image:
     #TA-Alex says please verify this is what you want
     repository: nginx
