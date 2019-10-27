@@ -1,4 +1,8 @@
 # Research
+**Author**: James Calhoun, Alex Lipford, Katherine Lu, Robert Smayda
+
+**Team**: Asclepius
+
 ## Questions
 ### What is pseudonymization?
 Pseudonymization is the processing of personal data in such a way that the data can no longer be attributed to a specific person without the use of additional information. The additional information must be kept separately [3].

@@ -1,4 +1,8 @@
 # Process Description
+**Author**: James Calhoun, Alex Lipford, Katherine Lu, Robert Smayda
+
+**Team**: Asclepius
+
 ## Work Breakdown Structure
 1. Project Management
     1. Project Overview
