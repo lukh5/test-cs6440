@@ -45,9 +45,9 @@ VI. ​Web Interface displays data collected
 ​
 ## 2 Use Case Model
 
-![](UseCaseModel.png)
+![UseCaseModel](images/UseCaseModel.png)
 
 
 ## 3 Sequence Diagram
 
-![](SequenceDiagram.png)
+![SequenceDiagram](images/SequenceDiagram.png)
