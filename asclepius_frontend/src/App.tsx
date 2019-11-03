@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Description from './Description';
-import Header from './Header';
 import SearchForm from './SearchForm';
+import ResultData from './ResultData';
 
 const App: React.FC = () => {
   return (
     <div className="App">
         <header className="App-header">
-          <Header />
+          <h1>Rapilytics</h1>
+          <h2>Team Asclepius</h2>
         </header>
         <SearchForm />
+        <ResultData />
       </div>
   );
 }
